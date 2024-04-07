@@ -4,19 +4,17 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46c84f797244efb540d410729eb83e9c",
+    "content-hash": "28351bcf84723fae5defdcafa1859071",
     "packages": [
         {
             "name": "dianaphp/framework",
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "../framework",
-                "reference": "a605c46c17a9a70812c040850cf4d1efb991493b"
+                "url": "/srv/http/diana/framework",
+                "reference": "902af63a8a43053adbdea62e6105d78c8c96dee0"
             },
             "require": {
-                "dianaphp/rendering": "dev-main",
-                "dianaphp/routing": "dev-main",
                 "filp/whoops": "^2.15",
                 "php": ">=8.3"
             },
@@ -54,95 +52,8 @@
             ],
             "transport-options": {
                 "symlink": true,
-                "relative": true
+                "relative": false
             }
-        },
-        {
-            "name": "dianaphp/rendering",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "../rendering",
-                "reference": "3b644c98e77cbc22188674d3c04fcae85669b5ac"
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Diana\\Rendering\\": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Antonio Ianzano",
-                    "email": "ianzanoan@gmail.com"
-                }
-            ],
-            "description": "the diana rendering package",
-            "keywords": [
-                "diana",
-                "framework",
-                "php"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
-        },
-        {
-            "name": "dianaphp/routing",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dianaphp/routing.git",
-                "reference": "525da3dbd88847bde6f592322e78c05a1cbc2ec6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dianaphp/routing/zipball/525da3dbd88847bde6f592322e78c05a1cbc2ec6",
-                "reference": "525da3dbd88847bde6f592322e78c05a1cbc2ec6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.2@dev"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Diana\\Tests\\": "tests/",
-                    "Diana\\Routing\\": "src/Diana/Routing/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Antonio Ianzano",
-                    "email": "ianzanoan@gmail.com"
-                }
-            ],
-            "description": "the diana routing package",
-            "keywords": [
-                "diana",
-                "framework",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/dianaphp/routing/issues",
-                "source": "https://github.com/dianaphp/routing/tree/main"
-            },
-            "time": "2024-04-06T03:03:29+00:00"
         },
         {
             "name": "filp/whoops",
@@ -841,12 +752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c6aae09d5f800bec3288687a75556b018be75cf4"
+                "reference": "0c233336367c2834b9cab3c8e6d1ce47228fa6a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c6aae09d5f800bec3288687a75556b018be75cf4",
-                "reference": "c6aae09d5f800bec3288687a75556b018be75cf4",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0c233336367c2834b9cab3c8e6d1ce47228fa6a1",
+                "reference": "0c233336367c2834b9cab3c8e6d1ce47228fa6a1",
                 "shasum": ""
             },
             "require": {
@@ -934,7 +845,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-05T05:04:52+00:00"
+            "time": "2024-04-07T09:04:05+00:00"
         },
         {
             "name": "sebastian/cli-parser",
