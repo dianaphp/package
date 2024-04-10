@@ -11,8 +11,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "/srv/http/diana/framework",
-                "reference": "902af63a8a43053adbdea62e6105d78c8c96dee0"
+                "url": "/repo/dianaphp/framework",
+                "reference": "d80346f75f6120e367398f3036f80c74295d7183"
             },
             "require": {
                 "filp/whoops": "^2.15",
@@ -752,12 +752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "0c233336367c2834b9cab3c8e6d1ce47228fa6a1"
+                "reference": "e91fafbc05ca189c67f8a4936ff825a9f719dcab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0c233336367c2834b9cab3c8e6d1ce47228fa6a1",
-                "reference": "0c233336367c2834b9cab3c8e6d1ce47228fa6a1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e91fafbc05ca189c67f8a4936ff825a9f719dcab",
+                "reference": "e91fafbc05ca189c67f8a4936ff825a9f719dcab",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +845,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-07T09:04:05+00:00"
+            "time": "2024-04-10T14:01:15+00:00"
         },
         {
             "name": "sebastian/cli-parser",
